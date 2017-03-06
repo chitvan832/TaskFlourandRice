@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		1D05E8AC1E49E2F400A619B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D05E8AB1E49E2F400A619B8 /* AppDelegate.swift */; };
-		1D05E8AE1E49E2F400A619B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D05E8AD1E49E2F400A619B8 /* ViewController.swift */; };
 		1D05E8B11E49E2F400A619B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D05E8AF1E49E2F400A619B8 /* Main.storyboard */; };
 		1D05E8B31E49E2F400A619B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D05E8B21E49E2F400A619B8 /* Assets.xcassets */; };
-		1D05E8B61E49E2F400A619B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D05E8B41E49E2F400A619B8 /* LaunchScreen.storyboard */; };
+		1D05E8C41E49FB7300A619B8 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D05E8C31E49FB7300A619B8 /* Montserrat-Black.otf */; };
+		1D05E8C61E49FB8300A619B8 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D05E8C51E49FB8300A619B8 /* Montserrat-Bold.otf */; };
+		1D2D96BC1E4B33BC00C58F24 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2D96BB1E4B33BC00C58F24 /* CellData.swift */; };
+		1D3E54181E4C857200E42569 /* golbal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E54171E4C857200E42569 /* golbal.swift */; };
+		1D4845D01E4AE9120044210F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4845CE1E4AE9120044210F /* TableViewCell.swift */; };
+		1D4845D11E4AE9120044210F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D4845CF1E4AE9120044210F /* TableViewCell.xib */; };
+		1D4845D31E4AEFAF0044210F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4845D21E4AEFAF0044210F /* ViewController.swift */; };
+		1D4845D61E4B196E0044210F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4845D41E4B196E0044210F /* CollectionViewCell.swift */; };
+		1D4845D71E4B196E0044210F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D4845D51E4B196E0044210F /* CollectionViewCell.xib */; };
+		349FD32A659051E09C202DCB /* Pods_TaskTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C137769796F97279DEDB66 /* Pods_TaskTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D05E8A81E49E2F400A619B8 /* TaskTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D05E8AB1E49E2F400A619B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D05E8AD1E49E2F400A619B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D05E8B01E49E2F400A619B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D05E8B21E49E2F400A619B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D05E8B51E49E2F400A619B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D05E8B71E49E2F400A619B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D05E8C31E49FB7300A619B8 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.otf"; path = "../../../Downloads/montserrat/Montserrat-Black.otf"; sourceTree = "<group>"; };
+		1D05E8C51E49FB8300A619B8 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.otf"; path = "../../../Downloads/montserrat/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		1D05E8C71E49FB8D00A619B8 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.otf"; path = "../../../Downloads/montserrat/Montserrat-Light.otf"; sourceTree = "<group>"; };
+		1D05E8C81E49FB9A00A619B8 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-UltraLight.otf"; path = "../../../Downloads/montserrat/Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		1D05E8C91E49FBA000A619B8 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.otf"; path = "../../../Downloads/montserrat/Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		1D2D96BB1E4B33BC00C58F24 /* CellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		1D3E54171E4C857200E42569 /* golbal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = golbal.swift; sourceTree = "<group>"; };
+		1D4845CE1E4AE9120044210F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
+		1D4845CF1E4AE9120044210F /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../TableViewCell.xib; sourceTree = "<group>"; };
+		1D4845D21E4AEFAF0044210F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D4845D41E4B196E0044210F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1D4845D51E4B196E0044210F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		1FBD166F20F31EDEE84A1F2B /* Pods-TaskTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaskTableView/Pods-TaskTableView.release.xcconfig"; sourceTree = "<group>"; };
+		4C26BCA2A78AC91825B68B80 /* Pods-TaskTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskTableView/Pods-TaskTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		E5C137769796F97279DEDB66 /* Pods_TaskTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349FD32A659051E09C202DCB /* Pods_TaskTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,13 @@
 			children = (
 				1D05E8AA1E49E2F400A619B8 /* TaskTableView */,
 				1D05E8A91E49E2F400A619B8 /* Products */,
+				1D05E8C31E49FB7300A619B8 /* Montserrat-Black.otf */,
+				1D05E8C51E49FB8300A619B8 /* Montserrat-Bold.otf */,
+				1D05E8C71E49FB8D00A619B8 /* Montserrat-Light.otf */,
+				1D05E8C81E49FB9A00A619B8 /* Montserrat-UltraLight.otf */,
+				1D05E8C91E49FBA000A619B8 /* Montserrat-Regular.otf */,
+				FC71FDA56CBB0C301AFC7437 /* Pods */,
+				CA515AA5F95D792B2536F855 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,36 @@
 		1D05E8AA1E49E2F400A619B8 /* TaskTableView */ = {
 			isa = PBXGroup;
 			children = (
+				1D4845D21E4AEFAF0044210F /* ViewController.swift */,
+				1D4845CE1E4AE9120044210F /* TableViewCell.swift */,
+				1D4845CF1E4AE9120044210F /* TableViewCell.xib */,
+				1D3E54171E4C857200E42569 /* golbal.swift */,
 				1D05E8AB1E49E2F400A619B8 /* AppDelegate.swift */,
-				1D05E8AD1E49E2F400A619B8 /* ViewController.swift */,
 				1D05E8AF1E49E2F400A619B8 /* Main.storyboard */,
 				1D05E8B21E49E2F400A619B8 /* Assets.xcassets */,
-				1D05E8B41E49E2F400A619B8 /* LaunchScreen.storyboard */,
 				1D05E8B71E49E2F400A619B8 /* Info.plist */,
+				1D4845D41E4B196E0044210F /* CollectionViewCell.swift */,
+				1D4845D51E4B196E0044210F /* CollectionViewCell.xib */,
+				1D2D96BB1E4B33BC00C58F24 /* CellData.swift */,
 			);
 			path = TaskTableView;
+			sourceTree = "<group>";
+		};
+		CA515AA5F95D792B2536F855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C137769796F97279DEDB66 /* Pods_TaskTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC71FDA56CBB0C301AFC7437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C26BCA2A78AC91825B68B80 /* Pods-TaskTableView.debug.xcconfig */,
+				1FBD166F20F31EDEE84A1F2B /* Pods-TaskTableView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D05E8BA1E49E2F400A619B8 /* Build configuration list for PBXNativeTarget "TaskTableView" */;
 			buildPhases = (
+				D1BC23DB039C181D08A0090C /* [CP] Check Pods Manifest.lock */,
 				1D05E8A41E49E2F400A619B8 /* Sources */,
 				1D05E8A51E49E2F400A619B8 /* Frameworks */,
 				1D05E8A61E49E2F400A619B8 /* Resources */,
+				AE70193FB7733B7AB66ECF67 /* [CP] Embed Pods Frameworks */,
+				3AC993B41085D2C7C9165075 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D05E8B61E49E2F400A619B8 /* LaunchScreen.storyboard in Resources */,
+				1D05E8C61E49FB8300A619B8 /* Montserrat-Bold.otf in Resources */,
+				1D4845D71E4B196E0044210F /* CollectionViewCell.xib in Resources */,
+				1D4845D11E4AE9120044210F /* TableViewCell.xib in Resources */,
+				1D05E8C41E49FB7300A619B8 /* Montserrat-Black.otf in Resources */,
 				1D05E8B31E49E2F400A619B8 /* Assets.xcassets in Resources */,
 				1D05E8B11E49E2F400A619B8 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +188,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AC993B41085D2C7C9165075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskTableView/Pods-TaskTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE70193FB7733B7AB66ECF67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaskTableView/Pods-TaskTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BC23DB039C181D08A0090C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D05E8A41E49E2F400A619B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D05E8AE1E49E2F400A619B8 /* ViewController.swift in Sources */,
+				1D4845D01E4AE9120044210F /* TableViewCell.swift in Sources */,
 				1D05E8AC1E49E2F400A619B8 /* AppDelegate.swift in Sources */,
+				1D4845D61E4B196E0044210F /* CollectionViewCell.swift in Sources */,
+				1D2D96BC1E4B33BC00C58F24 /* CellData.swift in Sources */,
+				1D3E54181E4C857200E42569 /* golbal.swift in Sources */,
+				1D4845D31E4AEFAF0044210F /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +259,6 @@
 				1D05E8B01E49E2F400A619B8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1D05E8B41E49E2F400A619B8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D05E8B51E49E2F400A619B8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -256,6 +357,7 @@
 		};
 		1D05E8BB1E49E2F400A619B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C26BCA2A78AC91825B68B80 /* Pods-TaskTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TaskTableView/Info.plist;
@@ -268,6 +370,7 @@
 		};
 		1D05E8BC1E49E2F400A619B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBD166F20F31EDEE84A1F2B /* Pods-TaskTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TaskTableView/Info.plist;
@@ -297,6 +400,7 @@
 				1D05E8BC1E49E2F400A619B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
